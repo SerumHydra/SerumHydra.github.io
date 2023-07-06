@@ -321,6 +321,18 @@ blockquote {
     grid-template-rows: auto auto;
 }
 
+.music-grid {
+    margin-bottom: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas: ". ."
+    ". .";
+    -ms-grid-columns: 1.5fr 10px 1fr 10px 1.5fr;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+    -ms-grid-rows: auto 10px auto;
+    grid-template-rows: auto auto;
+}
+
 .carrer-headline-wrap {
     width: 70%;
     margin-bottom: 50px;
